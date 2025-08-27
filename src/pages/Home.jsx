@@ -44,7 +44,6 @@ const Home = () => {
           <div className="home-image-container">
             <div className="home-wrapper">
               <img
-                // src="https://image.winudf.com/v2/image/Ymx1ZWNhcC5pbWFnZXouYmVhdXRpZnVsX2NvdW50cmllc193YWxscGFwZXJzX3NjcmVlbl8wXzlpMW14OWl1/screen-0.webp?fakeurl=1&type=.webp"
                 src="https://plus.unsplash.com/premium_photo-1700483717331-6da3888bc3db?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 className="home-img"
               />

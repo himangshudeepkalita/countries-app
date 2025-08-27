@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 32px;
+    align-items: start; /* ensures items align from the top */
 }
 
 .country-card {
@@ -21,10 +22,28 @@
 .country-details {
     color: #374151;
     margin-top: 0.5rem;
+    /*  */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .label {
     font-weight: 600;
+    /*  */
+    margin-bottom: 4px;
+    display: block;
+}
+
+.country-details ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    line-height: 1.6;
+    color: #4b5563;
+}
+
+.country-details li {
+    margin-bottom: 4px;
 }
 
 .country-flag {
@@ -43,6 +62,8 @@
 
 @media (min-width: 768px) {
     .country-wrapper {
-        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr; */
+        grid-template-columns: 2fr 1fr; /* left side wider, right side smaller */
+        gap: 48px; /* add more breathing space between details and flag */
     }
 }
