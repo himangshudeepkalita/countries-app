@@ -1,0 +1,41 @@
+.about-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #ffffff;
+}
+
+.about-content {
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.about-title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    color: #111827; 
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.about-text {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #4b5563;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    font-weight: 600;
+    color: #4f46e5;  
+}
+
+.about-text {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #4b5563; 
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,48 @@
+.country-wrapper {
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+}
+
+.country-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.country-title {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.country-details {
+    color: #374151;
+    margin-top: 0.5rem;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.country-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country-img {
+    width: 14rem;
+    height: auto;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+    .country-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
